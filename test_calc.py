@@ -16,3 +16,6 @@ def test_Single_number_return_number():
     
 def test_two_number_return_number():
     assert add("1,2") == 3
+
+def test_neg_numbers():
+    assert add("-1") == -1
