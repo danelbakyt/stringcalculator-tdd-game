@@ -2,8 +2,7 @@
 def add(numbers):
     if numbers == "":
         return 0
-    elif numbers == "1,2":
-        return 3
-    else:
-        return int(numbers)
+
+    values = numbers.split(",")
+    return sum(int(value) for value in values)
     
