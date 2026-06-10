@@ -10,4 +10,6 @@ from calc import add
 
 def test_example_string_returns_zero():
     assert add("") == 0  # uncomment to test
-    pass
+
+def test_Single_number_return_number():
+    assert add("1") == 1
